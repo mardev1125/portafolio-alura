@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#aficiones">Aficiones</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="presentacion">
+        <img src="assets/profile.png" alt="Foto de perfil">
+        <h2 class="presentacion__titulo">Hola, soy Magda Sánchez Campos</h2>
+        <p class="presentacion__subtitulo">Desarrollo páginas web modernas y funcionales con habilidades en HTML, CSS, JavaScript, y gestión de bases de datos.</p>
+        <div class="redes">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p>Soy desarrollador web con experiencia en tecnologías modernas. Me apasiona crear soluciones elegantes y funcionales que mejoren la experiencia del usuario.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades">
+            <li class="habilidades__elemento">
+                <img src="assets/html_icon.png" alt="HTML">
+                <p>HTML</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img src="assets/css_icon.png" alt="CSS">
+                <p>CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img src="assets/js_icon.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img src="assets/php_icon.png" alt="JavaScript">
+                <p>PHP</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones">
+            <li class="aficiones__elemento">
+                <img src="assets/skate_icon.png" alt="Patinaje">
+                <p>Patinaje</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img src="assets/skate_icon.png" alt="Patinaje">
+                <p>Patinaje</p>
+            </li>
+           
+        </ul>
+    </section>
+
+    <section id="formacion">
+        <h2 class="formacion__titulo">Formación Académica</h2>
+        <ul class="formacion">
+            <li class="formacion__elemento">
+                <img src="assets/unam.png" alt="UFPR">
+                <p>Informática</p>
+            </li>
+            <li class="formacion__elemento">
+                <img src="assets/dvf.jpg" alt="UFPR">
+                <p>Front-End</p>
+            </li>
+        </ul>
+    </section>
+
+    
+
+    <section id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <form class="contacto__formulario">
+            <input type="text" class="contacto__campo" placeholder="Nombre" required>
+            <input type="email" class="contacto__campo" placeholder="Correo Electrónico" required>
+            <textarea class="contacto__campo" placeholder="Mensaje" required></textarea>
+            <button type="submit" class="contacto__boton">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alura Latam. Todos los derechos reservados.</p>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>
